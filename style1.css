@@ -1,0 +1,30 @@
+body{
+    background: rgb(221,214,248);
+    background: linear-gradient(90deg, rgba(221,214,248,1) 0%, rgba(221,238,250,1) 31%, rgba(221,214,248,1) 68%, rgba(221,238,250,1) 100%);
+    font-family: Product Sans;
+    width: 100%;
+}
+
+.img-fluid{
+    height: 100px;
+    width: 172px;
+    margin-top: 15px;
+}
+
+.text-center h6{
+    font-weight: 900;
+    color: #2a2868;
+    font-size: 12px;
+    margin-top: 1%;
+}
+
+.info{
+    font-family:Product Sans;
+    font-size:12px;
+    margin-top: 2%;
+    padding: 2%;
+    border: solid 2px #2a2868;
+    border-radius: 20px;
+    background-color: #2a2868;
+    color: white;
+}

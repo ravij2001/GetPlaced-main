@@ -1,0 +1,276 @@
+*{
+    width: 100%;
+}
+
+body {
+    background: #FFFFFF;
+    font-family: Product Sans;
+}
+
+.box{
+    position: relative;
+    display: inline-block;
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+}
+
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 25%;
+    text-align: center;
+    width: 60%;
+}
+
+.box .text img{
+    height: 235px;
+    width: 380px;
+}
+
+.box .text h1{
+    font-family: Product Sans;
+    font-weight: 900;
+    color: #2a2868;
+    font-size: 36px;
+}
+
+.full-width-image {
+    width: 100vw;
+    position: relative;
+    left: 50%;  
+    margin-left: -50vw;
+}
+
+.full-width-image img {
+    width: 100%;
+}
+
+.about{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.about h4{
+    font-family: Product Sans;
+    font-weight: 900;
+    margin-bottom: -0.1%;
+    font-size: 18px;
+}
+
+.about h2{
+    font-family: Product Sans;
+    font-weight: 900;
+    font-size: 32px;
+    color: #2a2868;
+}
+
+.facts{
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+
+.facts h2{
+    font-family: Product Sans;
+    font-weight: 900;
+    font-size: 32px;
+    color: #2a2868;
+}
+
+
+.card-body h5{
+    font-family: Product Sans;
+    font-weight: 500;
+    font-size: 60px;
+    color: #2a2868;
+    text-align: center;
+}
+
+.card-body p{
+    font-family: Product Sans;
+    font-size: 16px;
+    text-align: center;
+    margin-top: -5%;
+}
+
+.container-fluid img{
+    /*height: 45px;
+    width: 80px;*/
+    width: 16%;
+    margin-left: 15%;
+}
+
+.navbar{
+    font-family: Product Sans;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 12pt;
+    color: #2a2868;
+}
+
+.nav-link{
+    color: #2a2868;
+}
+
+.navbar a{
+    font-family: Product Sans;
+    font-size: 12pt;
+}
+
+.btn-outline-success{
+    background-color: #2a2868; 
+    color:#FFF;
+    border-radius: 25px;
+}
+
+.btn-outline-success:hover{
+    background-color:#FFF ; 
+    color:#2a2868;
+    border-radius: 25px;
+}
+
+/*Footer Styles*/
+
+.fa{
+    display: inline;
+}
+
+footer{
+    background-color: #2a2868;
+    color: white;
+}
+
+/*Contact Us*/
+
+.contact{
+    width: 70%;
+    height: 500px;
+    /* border: 2px solid rebeccapurple; */
+    margin: auto;
+    display: flex;
+}
+
+.employers h2{
+    font-family: Product Sans;
+    font-weight: 900;
+    font-size: 32px;
+    color: #2a2868;
+    text-align: center;
+}
+
+.contact h2{
+    font-family: Product Sans;
+    font-weight: 900;
+    font-size: 32px;
+    color: #2a2868;
+    text-align: center;
+}
+
+.contactinfo label{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.contactinfo input{
+    width: 70%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.contactinfo textarea{
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.contactinfo button{
+    margin-top: 20px;
+    width: 120px;
+    margin-left: 8px;
+    border-radius: 20px;
+    padding: 5px;
+    color: #FFFFFF;
+    background-color: #2a2868;
+    transition-property: all;
+    transition-delay: 0.4s;
+    transition-timing-function: ease-in;
+}
+
+button:hover{
+    background-color: transparent;
+    color: #2a2868;
+    border: 3px solid rebeccapurple;
+}
+
+@media only screen and (max-width:500px) {
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 30%;
+        text-align: center;
+        width: 60%;
+    }
+
+    .box .text img{
+        height: 85px;
+        width: 140px;
+    }
+
+    .box .text h1{
+        font-family: Product Sans;
+        color: #2a2868;
+        font-size: 12px;
+    }
+
+    .about{
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    .about h4{
+        font-family: Product Sans;
+        font-weight: 900;
+        margin-bottom: -0.1%;
+        font-size: 20px;
+    }
+    
+    .about h2{
+        margin-top: 4%;
+        font-family: Product Sans;
+        font-weight: 900;
+        font-size: 30px;
+    }
+
+    .facts{
+        text-align: center;
+        margin-top: 6%;
+        margin-bottom: 2%;
+    }
+
+    .facts h2{
+        margin-top: 4%;
+        font-family: Product Sans;
+        font-weight: 900;
+        font-size: 30px;
+    }
+
+    .container-fluid img{
+        height: 65px;
+        width: 100px;
+        margin-left: 38%;
+    }
+    
+}
